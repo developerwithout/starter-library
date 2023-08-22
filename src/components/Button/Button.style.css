@@ -1,0 +1,103 @@
+.btn {
+    border: 0;
+    line-height: 1;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 3px;
+    display: inline-block;
+    opacity: 1;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+}
+
+.sm-pad {
+    padding: 7px 25px 8px;
+}
+
+.med-pad {
+    padding: 9px 30px 11px;
+}
+
+.lg-pad {
+    padding: 14px 30px 16px;
+}
+
+.text.primary {
+  color: #e0c8ab;
+  background-color: transparent;
+}
+
+.contained.primary {
+    background-color: #e0c8ab;
+    color: #fff;
+}
+
+.outlined {
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+color: ${({color, variant})=> {
+    if (variant==='contained') {
+        return '#fff'
+    }
+
+    switch(color) {
+        case 'primary':
+            return '#e0c8ab';
+        case 'secondary':
+            return '#265c73';
+        case 'success':
+            return '#41965b';
+        case 'error':
+            return '#f44336';
+        case 'info':
+            return '#1f292d';
+        case 'warning':
+            return '#be8623';
+        default:
+            return "#999999";
+    }
+}
+
+background-color: ${({color, variant})=> {
+    if (variant !='contained') {
+        return 'transparent';
+    }
+
+    switch(color) {
+        case 'primary':
+            return '#265c73';
+        case 'secondary':
+            return '#e0c8ab';
+        case 'success':
+            return '#41965b';
+        case 'error':
+            return '#f44336';
+        case 'info':
+            return '#1f292d';
+        case 'warning':
+            return '#be8623';
+        default:
+            return "#999999";
+    }
+}
+}
+border: ${({color, variant})=>(variant==='outlined' ? solid 2px #000 : none)
+}
+
+:hover {
+    background-color: ${({color})=>(color ? "#55bd90" : "#6bedb5")
+}
+
+:active {
+    border: solid 2px #1b116e;
+    padding: ${({size})=>size==="sm"
+    ? "5px 23px 6px"
+    : size==="med"
+        ? "7px 28px 9px"
+        : "12px 28px 14px"
+}
