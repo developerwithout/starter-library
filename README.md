@@ -1,10 +1,10 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+<!-- ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png) -->
 
 
 # Component Library
 
-A Component Library for my personal projects.
+A React Component Library using TailWindCss for my personal projects.
 
 ## Usage/Examples
 
@@ -19,12 +19,12 @@ function App() {
 
 ## Features
 
-- Light/dark mode toggle
+<!-- - Light/dark mode toggle
 - Live previews
 - Fullscreen mode
-- Cross platform
+- Cross platform -->
 
-## Color Reference
+## Color Referece
 
 | Name        | Color                                                    | Hex     |              |
 | ----------- | -------------------------------------------------------- | ------- | ------------ |
@@ -45,22 +45,22 @@ function App() {
 
 ## Installation
 
-Install my-project with npm
+<!-- Install my-project with npm
 
 ```bash
-  npm install my-project
+  npm install 
   cd my-project
-```
+``` -->
     
 ## Contributing
 
-Contributions are always welcome!
+<!-- Contributions are always welcome!
 
 <!-- See `contributing.md` for ways to get started. -->
 
-Please adhere to this project's `code of conduct`.
+<!-- Please adhere to this project's `code of conduct`. -->
 
-## Running Storybook
+### Running Storybook
 
 To run storybook, run the following command
 
@@ -68,7 +68,7 @@ To run storybook, run the following command
 npm run storybook
 ```
 
-## Running Tests
+### Running Tests
 
 To run tests, run the following command
 
@@ -76,8 +76,7 @@ To run tests, run the following command
   npm run test
 ```
 
-
-## Deployment
+### Deployment
 
 To deploy this project run
 
@@ -92,10 +91,9 @@ For support, email fake@fake.com or join our Slack channel.
  -->
 
 ## License
-[MIT](README.md)
 
+[MIT](README.md)
 
 ## Authors
 
 - [@developerwithout](https://www.github.com/developerwithout)
-
