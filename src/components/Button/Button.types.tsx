@@ -1,11 +1,12 @@
-import { MouseEventHandler } from 'react';
+import { MouseEventHandler, ReactNode } from 'react';
 
 export interface ButtonProps {
     size?: 'sm' | 'md' | 'lg';
-    color?: 'inherit' | 'primary' | 'secondary' | 'success' | 'error' | 'info' | 'warning' | string;
+    color?: 'primary' | 'secondary' | 'success' | 'error' | 'info' | 'warning';
     variant?: 'text' | 'contained' | 'outlined';
     round?: boolean;
     disabled?: boolean;
-    text?: string; 
+    className?: string;
+    children?: ReactNode; 
     onClick?: MouseEventHandler<HTMLButtonElement>;
 }
