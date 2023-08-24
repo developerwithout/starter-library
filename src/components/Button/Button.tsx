@@ -1,5 +1,4 @@
 import React from 'react';
-// import './Button.style';
 import { ButtonProps } from './Button.types';
 
 const colorMap: Record<string, string> = {

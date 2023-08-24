@@ -6,8 +6,8 @@ import Button from './Button';
 
 describe('Running Test for JDix Button', () => {
     test("Check Button Disabled", () => {
-        render(<Button text="Button jdix" disabled />)
-        expect(screen.getByRole('button', {name: "Button jdix"})).toBeDisabled();
+        render(<Button children={ 'Button' } disabled/>)
+        expect(screen.getByRole('button', {name: "Button"})).toBeDisabled();
     })
 })
 
