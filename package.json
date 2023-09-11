@@ -12,7 +12,7 @@
     "build-storybook": "storybook build"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/developerwithout"
+    "@developerwithout:registry": "https://npm.pkg.github.com"
   },
   "author": "Joshua A. Dix <jadix117@gmail.com>",
   "license": "MIT",
