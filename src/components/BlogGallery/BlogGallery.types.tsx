@@ -1,5 +1,5 @@
-import type { BlogCardProps } from "../BlogCard/BlogCard.types";
+import { ReactNode } from "react";
 
 export interface BlogGalleryProps {
-  list: Array<BlogCardProps>;
+  children?: ReactNode;
 }

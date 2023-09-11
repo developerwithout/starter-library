@@ -3,7 +3,7 @@ export interface BlogCardProps {
   title: string;
   description: string;
 
-  image: {
+  image?: {
     src?: string;
     alt?: string;
   };
