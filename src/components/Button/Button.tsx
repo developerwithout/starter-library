@@ -10,7 +10,7 @@ const variantStyles = (variant: 'text' | 'contained' | 'outlined'): string => {
   return '';
 }
 
-const Button: React.FC<ButtonProps> = ({
+const Button = ({
   size = 'md',
   color = 'primary',
   variant = 'text',
@@ -20,7 +20,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
   onClick,
   ...props
-}) => {
+}: ButtonProps) => {
 
   return (
     <button
