@@ -1,5 +1,5 @@
 {
-  "name": "@developerwithout/starter-library",
+  "name": "@utlogiclabs/starter-library",
   "version": "0.0.1",
   "description": "A personal component library for projects.",
   "main": "dist/cjs/index.js",
