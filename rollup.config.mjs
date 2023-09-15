@@ -5,7 +5,7 @@ import typescript from "@rollup/plugin-typescript";
 import terser from "@rollup/plugin-terser";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import css from "rollup-plugin-import-css";
-import tailwind from "@developerwithout/rollup-tailwind";
+import tailwind from "@utlogiclabs/rollup-tailwind";
 
 import packageJson from "./package.json" assert { type: "json" };
 
@@ -26,11 +26,6 @@ export default [
     ],
     plugins: [
       css(),
-      // postcss({
-      //   plugins: [
-      //     postcssImport(),
-      //   ],
-      // }),
       tailwind({
         input: join(__dirname, "/src/tailwind.css"),
         purge: true,
