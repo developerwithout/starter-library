@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-export interface HeroAvatarProps {
+export interface I_Hero {
   title: ReactNode;
   description:ReactNode;
   socialButtons?: ReactNode;

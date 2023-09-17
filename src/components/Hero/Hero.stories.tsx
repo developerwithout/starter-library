@@ -1,15 +1,15 @@
 import { Meta, StoryObj } from '@storybook/react';
-import HeroAvatar from './HeroAvatar';
+import Hero from './Hero';
 
-const meta: Meta<typeof HeroAvatar> = {
-  component: HeroAvatar,
-  title: 'LogicLabs/Components/HeroAvatar',
+const meta: Meta<typeof Hero> = {
+  component: Hero,
+  title: 'LogicLabs/Components/Hero',
   tags: ['autodocs'],
 }
 
 export default meta;
 
-type Story = StoryObj<typeof HeroAvatar>;
+type Story = StoryObj<typeof Hero>;
 export const base: Story = {
   args: {
     title: 'Hero Avatar',

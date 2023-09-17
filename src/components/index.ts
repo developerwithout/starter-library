@@ -3,7 +3,7 @@ export * from './Gallery'
 export * from './Button';
 export * from './FooterCopyright'
 export * from './GradientText'
-export * from './HeroAvatar'
+export * from './Hero'
 export * from './Logo'
 export * from './NavMenu'
 export * from './NavMenuItem'

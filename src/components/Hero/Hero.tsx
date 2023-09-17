@@ -1,7 +1,7 @@
 import React from "react";
-import type { HeroAvatarProps } from "./HeroAvatar.types";
+import type { I_Hero } from "./Hero.types";
 
-export default function HeroAvatar({ title, description, socialButtons, avatar }: HeroAvatarProps) {
+export default function HeroAvatar({ title, description, socialButtons, avatar }: I_Hero) {
   return (
     <div className="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
       <div>

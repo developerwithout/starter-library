@@ -3,7 +3,7 @@ import Card from './Card'
 
 const meta: Meta<typeof Card> = {
   component: Card,
-  title: 'LogicLabs/Components/BlogCard',
+  title: 'LogicLabs/Components/Card',
   tags: ['autodocs'],
 };
 
@@ -38,7 +38,7 @@ export const CardNoImageWithDate: Story = {
   }
 }
 
-export const Card: Story = {
+export const FullCard: Story = {
   args: {
     ...Base.args,
 
