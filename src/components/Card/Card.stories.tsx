@@ -4,7 +4,6 @@ import Card from './Card'
 const meta: Meta<typeof Card> = {
   component: Card,
   title: 'LogicLabs/Components/Card',
-  tags: ['autodocs'],
 };
 
 export default meta;

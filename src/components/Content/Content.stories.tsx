@@ -5,7 +5,6 @@ import Content from './Content';
 const meta: Meta<typeof Content> = {
   component: Content,
   title: 'LogicLabs/Components/Content',
-  tags: ['autodocs'],
 };
 
 export default meta;

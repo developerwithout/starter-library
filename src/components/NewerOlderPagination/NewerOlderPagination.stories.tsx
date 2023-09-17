@@ -4,7 +4,6 @@ import NewerOlderPagination from "./NewerOlderPagination";
 const meta: Meta<typeof NewerOlderPagination> = {
   component: NewerOlderPagination,
   title: 'LogicLabs/Components/NewerOlderPagination',
-  tags: ['autodocs']
 }
 
 export default meta;

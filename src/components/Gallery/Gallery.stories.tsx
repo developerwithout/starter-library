@@ -6,7 +6,6 @@ import Card from '../Card/Card';
 const meta: Meta<typeof Gallery> = {
   component: Gallery,
   title: 'LogicLabs/Components/Gallery',
-  tags: ['autodocs'],
 }
 
 export default meta;

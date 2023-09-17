@@ -4,7 +4,7 @@ import Project from './Project';
 const meta: Meta<typeof Project> = {
   component: Project,
   title: 'LogicLabs/Components/Project',
-  tags: ['autodocs'],
+  
 };
 
 export default meta;

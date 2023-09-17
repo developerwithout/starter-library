@@ -6,7 +6,6 @@ import MenuItem from './MenuItem'
 const meta: Meta<typeof MenuItem> = {
   component: MenuItem,
   title: 'LogicLabs/Components/MenuItem',
-  tags: ['autodocs']
 }
 
 export default meta;

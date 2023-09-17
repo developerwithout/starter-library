@@ -4,7 +4,6 @@ import GradientText from './GradientText';
 const meta: Meta<typeof GradientText> = {
   component: GradientText,
   title: 'LogicLabs/Components/GradientText',
-  tags: ['autodocs']
 };
 
 export default meta;

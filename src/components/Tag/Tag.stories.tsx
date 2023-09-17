@@ -5,7 +5,6 @@ import Tag from './Tag'
 const meta: Meta<typeof Tag> = {
   component: Tag,
   title: 'LogicLabs/Components/Tag',
-  tags: ['autodocs'],
 }
 
 export default meta;

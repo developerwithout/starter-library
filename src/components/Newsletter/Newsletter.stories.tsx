@@ -5,7 +5,6 @@ import Newsletter from './Newsletter';
 const meta: Meta<typeof Newsletter> = {
   component: Newsletter,
   title: 'LogicLabs/Components/Newsletter',
-  tags: ['autodocs'],
 }
 
 export default meta;

@@ -4,7 +4,6 @@ import Logo from './Logo';
 const meta: Meta<typeof Logo> = {
   component: Logo,
   title: 'LogicLabs/Components/Logo',
-  tags: ['autodocs'],
 };
 
 export default meta;

@@ -4,7 +4,6 @@ import Header from './Header';
 const meta: Meta<typeof Header> = {
   component: Header,
   title: 'LogicLabs/Components/Header',
-  tags: ['autodocs']
 };
 
 export default meta;

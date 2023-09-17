@@ -4,7 +4,6 @@ import Copyright from './Copyright'
 const meta: Meta<typeof Copyright> = {
   component: Copyright,
   title: 'LogicLabs/Components/Copyright',
-  tags: ['autodocs'],
 }
 
 export default meta;

@@ -4,7 +4,6 @@ import Hero from './Hero';
 const meta: Meta<typeof Hero> = {
   component: Hero,
   title: 'LogicLabs/Components/Hero',
-  tags: ['autodocs'],
 }
 
 export default meta;

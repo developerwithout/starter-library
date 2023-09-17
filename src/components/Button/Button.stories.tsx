@@ -4,7 +4,6 @@ import Button from './Button';
 const meta: Meta<typeof Button> = {
   component: Button,
   title: 'LogicLabs/Components/Button',
-  tags: ['autodocs'],
 };
 
 export default meta;

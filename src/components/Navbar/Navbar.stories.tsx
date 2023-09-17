@@ -5,7 +5,6 @@ import Navbar from './Navbar';
 const meta: Meta<typeof Navbar> = {
   component: Navbar,
   title: 'LogicLabs/Components/Navbar',
-  tags: ['autodocs']
 }
 
 export default meta;

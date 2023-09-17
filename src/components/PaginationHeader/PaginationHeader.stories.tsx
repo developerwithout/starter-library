@@ -4,7 +4,7 @@ import PaginationHeader from './PaginationHeader';
 const meta: Meta<typeof PaginationHeader> = {
   component: PaginationHeader,
   title: 'LogicLabs/Components/PaginationHeader',
-  tags: ['autodocs'],
+  
 };
 
 export default meta;
