@@ -4,7 +4,6 @@ import PaginationHeader from './PaginationHeader';
 const meta: Meta<typeof PaginationHeader> = {
   component: PaginationHeader,
   title: 'LogicLabs/Components/PaginationHeader',
-  
 };
 
 export default meta;

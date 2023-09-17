@@ -5,7 +5,6 @@ import Section from './Section'
 const meta: Meta<typeof Section> ={
   component: Section,
   title: 'LogicLabs/Components/Section',
-  
 }
 
 export default meta;
