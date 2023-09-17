@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import BlogGallery from './BlogGallery';
+import Gallery from './Gallery';
 
 describe("BlogCard", () => {
   test("renders the BlogCard Component", () => {
     render(
-      <BlogGallery>Test</BlogGallery>
+      <Gallery>Test</Gallery>
     );
   })
 })

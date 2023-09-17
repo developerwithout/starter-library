@@ -1,17 +1,17 @@
 import React from 'react';
 import { Meta, StoryObj } from '@storybook/react'
-import BlogGallery from './BlogGallery'
-import BlogCard from '../BlogCard/BlogCard';
+import Gallery from './Gallery'
+import Card from '../Card/Card';
 
-const meta: Meta<typeof BlogGallery> = {
-  component: BlogGallery,
+const meta: Meta<typeof Gallery> = {
+  component: Gallery,
   title: 'LogicLabs/Components/BlogGallery',
   tags: ['autodocs'],
 }
 
 export default meta;
 
-type Story = StoryObj<typeof BlogGallery>;
+type Story = StoryObj<typeof Gallery>;
 
 export const noCards: Story = {
   args: {
@@ -21,7 +21,7 @@ export const noCards: Story = {
 export const singleCard: Story = {
   args: {
     children: Array.from({ length: 1 }).map((_, indx) => (
-      <BlogCard link={''} title={`Title $${indx}`} description={`Description ${indx}`} />
+      <Card link={''} title={`Title $${indx}`} description={`Description ${indx}`} />
     )),
   }
 }
@@ -29,7 +29,7 @@ export const singleCard: Story = {
 export const MultipleCards2: Story = {
   args: {
     children: Array.from({ length: 1 }).map((_, indx) => (
-      <BlogCard
+      <Card
         link={''}
         title={`Title $${indx}`}
         description={`Description ${indx}`}
@@ -45,7 +45,7 @@ export const MultipleCards2: Story = {
 export const MultiCards3: Story = {
   args: {
     children: Array.from({ length: 3 }).map((_, indx) => (
-      <BlogCard
+      <Card
         link={''}
         title={`Title $${indx}`}
         description={`Description ${indx}`}

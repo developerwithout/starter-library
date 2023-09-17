@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
 
-export interface BlogGalleryProps {
+export interface I_Gallery {
   children?: ReactNode;
 }

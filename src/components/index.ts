@@ -1,5 +1,5 @@
-export * from './BlogCard'
-export * from './BlogGallery'
+export * from './Card'
+export * from './Gallery'
 export * from './Button';
 export * from './FooterCopyright'
 export * from './GradientText'
