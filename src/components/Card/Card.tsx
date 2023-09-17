@@ -1,7 +1,7 @@
 import React, { type FC } from 'react';
-import type { BlogCardProps } from './BlogCard.types'
+import type { I_Card } from './Card.types'
 
-export default function BlogCard({ link, image, title, publishDate, description }: BlogCardProps) {
+export default function Card({ link, image, title, publishDate, description }: I_Card) {
   return (
     <a href={link} className="hover:translate-y-1">
       <div className="w-fit overflow-hidden rounded-md bg-slate-800">

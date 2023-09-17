@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import BlogCard from './BlogCard'
+import Card from './BlogCard'
 
-describe("BlogCard", () => {
+describe("Card", () => {
   test("renders the BlogCard Component", () => {
     render(
-      <BlogCard
+      <Card
         link={'https://www.example.com'}
         title={'Example Blog Card'}
         description={'Testing Blog Card'}

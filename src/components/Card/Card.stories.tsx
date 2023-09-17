@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import BlogCard from './BlogCard'
+import Card from './Card'
 
-const meta: Meta<typeof BlogCard> = {
-  component: BlogCard,
+const meta: Meta<typeof Card> = {
+  component: Card,
   title: 'LogicLabs/Components/BlogCard',
   tags: ['autodocs'],
 };
 
 export default meta;
 
-type Story = StoryObj<typeof BlogCard>;
+type Story = StoryObj<typeof Card>;
 
 export const Base: Story = {
   args: {
