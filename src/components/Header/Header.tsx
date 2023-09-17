@@ -1,9 +1,9 @@
 import React from "react";
 const { format } = require('date-fns');
 
-import { PostHeaderProps } from "./PostHeader.types";
+import { I_Header } from "./Header.types";
 
-export default function PostHeader({ post, author }: PostHeaderProps) {
+export default function Header({ post, author }: I_Header) {
   return (
     <>
       <h1 className="text-center text-3xl font-bold">{post.title}</h1>

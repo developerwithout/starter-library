@@ -1,16 +1,16 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import PostContent from './PostContent';
+import Content from './Content';
 
-const meta: Meta<typeof PostContent> = {
-  component: PostContent,
-  title: 'LogicLabs/Components/PostContent',
+const meta: Meta<typeof Content> = {
+  component: Content,
+  title: 'LogicLabs/Components/Content',
   tags: ['autodocs'],
 };
 
 export default meta;
 
-type Story = StoryObj<typeof PostContent>;
+type Story = StoryObj<typeof Content>;
 
 export const Base: Story = {
   args: {

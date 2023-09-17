@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
 
-export interface NavbarTwoColumnsProps {
+export interface I_Menu {
   children: ReactNode;
 }

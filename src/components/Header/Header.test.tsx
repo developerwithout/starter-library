@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import PostHeader from './PostHeader'
+import Header from './Header'
 
-describe("PostHeader", () => {
-  test("renders the PostHeader Component", () => {
+describe("Header", () => {
+  test("renders the Header Component", () => {
     render(
-      <PostHeader post={{
+      <Header post={{
         title: 'Some Post',
         publicationDate: new Date('September 11, 2003')
       }} author={'LogicLabs'} />

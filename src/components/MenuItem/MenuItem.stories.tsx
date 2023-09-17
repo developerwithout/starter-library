@@ -1,17 +1,17 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 
-import NavMenuItem from './NavMenuItem'
+import MenuItem from './MenuItem'
 
-const meta: Meta<typeof NavMenuItem> = {
-  component: NavMenuItem,
-  title: 'LogicLabs/Components/NavMenuItem',
+const meta: Meta<typeof MenuItem> = {
+  component: MenuItem,
+  title: 'LogicLabs/Components/MenuItem',
   tags: ['autodocs']
 }
 
 export default meta;
 
-type Story = StoryObj<typeof NavMenuItem>;
+type Story = StoryObj<typeof MenuItem>;
 
 export const Base: Story = {
   args: {

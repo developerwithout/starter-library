@@ -1,10 +1,10 @@
 import React from "react";
-import { PostContentProps } from "./PostContent.types";
+import { I_Content } from "./Content.types";
 
-export default function PostContent({
+export default function Content({
   image,
   children
-}: PostContentProps) {
+}: I_Content) {
   return (
     <div className="mx-auto mt-5 max-w-prose">
       <div className="aspect-w-3 aspect-h-2">

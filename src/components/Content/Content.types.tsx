@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-export interface PostContentProps {
+export interface I_Content {
   image?: {
     src: string;
     alt?: string;

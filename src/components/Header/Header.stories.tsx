@@ -1,15 +1,15 @@
 import { Meta, StoryObj } from "@storybook/react";
-import PostHeader from './PostHeader';
+import Header from './Header';
 
-const meta: Meta<typeof PostHeader> = {
-  component: PostHeader,
-  title: 'LogicLabs/Components/PostHeader',
+const meta: Meta<typeof Header> = {
+  component: Header,
+  title: 'LogicLabs/Components/Header',
   tags: ['autodocs']
 };
 
 export default meta;
 
-type Story = StoryObj<typeof PostHeader>;
+type Story = StoryObj<typeof Header>;
 
 export const Base: Story = {
   args: {

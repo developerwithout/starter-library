@@ -1,7 +1,7 @@
 import React from "react";
-import type { NavMenuProps } from "./NavMenu.types";
+import type { I_Menu } from "./Menu.types";
 
-export default function NavMenu({ children }: NavMenuProps) {
+export default function Menu({ children }: I_Menu) {
   return (
     <nav>
       <ul className="flex gap-x-3 font-medium text-gray-200">
