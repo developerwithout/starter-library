@@ -5,7 +5,7 @@ import typescript from "@rollup/plugin-typescript";
 import terser from "@rollup/plugin-terser";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import css from "rollup-plugin-import-css";
-import tailwind from "@utlogiclabs/rollup-tailwind";
+import tailwind from "rollup-tailwind";
 
 import packageJson from "./package.json" assert { type: "json" };
 
