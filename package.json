@@ -1,6 +1,6 @@
 {
-  "name": "@utlogiclabs/starter-library",
-  "version": "0.1.0",
+  "name": "starter-library",
+  "version": "0.2.0",
   "description": "A personal component library for projects.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -10,9 +10,6 @@
     "test": "jest",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
-  },
-  "publishConfig": {
-    "@utlogiclabs:registry": "https://npm.pkg.github.com"
   },
   "author": "Joshua A. Dix <jadix117@gmail.com>",
   "license": "MIT",
