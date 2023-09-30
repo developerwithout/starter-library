@@ -1,1 +1,1 @@
-export * from './PaginationHeader';
+export { default } from './PaginationHeader';

@@ -1,23 +1,27 @@
 {
-    "compilerOptions": {
-        "esModuleInterop": true,
-        "strict": true,
-        "skipLibCheck": true,
-        "jsx": "react",
-        "module": "ESNext",
-        "declaration": true,
-        "declarationDir": "true",
-        "sourceMap": true,
-        "outDir": "dist",
-        "moduleResolution": "node",
-        "emitDeclarationOnly": true,
-        "allowSyntheticDefaultImports": true,
-        "forceConsistentCasingInFileNames": true
-    },
-    "exclude": [
-        "dist",
-        "node_modules",
-        "src/**/*.test.tsx",
-        "src/**/*.stories.tsx"
-    ]
+  "compilerOptions": {
+    "module": "ESNext",
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declarationDir": "dist",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "declaration": true, //Extract declaration code *.d.js
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src", "globals.d.ts"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx"
+  ]
 }
