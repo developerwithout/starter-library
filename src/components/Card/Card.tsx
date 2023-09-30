@@ -1,4 +1,4 @@
-import React, { type FC } from 'react';
+import React from 'react';
 import type { I_Card } from './Card.types'
 
 export default function Card({ link, image, title, publishDate, description }: I_Card) {

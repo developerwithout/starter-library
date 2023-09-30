@@ -1,1 +1,1 @@
-export * from './NewerOlderPagination'
+export { default } from './NewerOlderPagination'
