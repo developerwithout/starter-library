@@ -3,3 +3,11 @@ node_modules/
 .vscode
 .env
 src/
+.github/
+.storybook/
+.babelrc.json
+jest.config.js
+postcss.config.js
+rollup.config.mjs
+tailwind.config.js
+tsconfig.json
