@@ -30,6 +30,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Clean Install
         run: npm ci
+      - name: Build Package
+        run: npm run build
       - name: NPM Publish
         run: npm publish --provenance --access  public
         env:
