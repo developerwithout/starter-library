@@ -1,6 +1,6 @@
 {
   "name": "starter-library",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A personal component library for projects.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
