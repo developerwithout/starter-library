@@ -6,7 +6,7 @@
 
 A React Component Library using TailWindCss for my personal projects.
 
-[![Node.js Package](https://github.com/UTLogicLabs/starter-library/actions/workflows/release-package.yml/badge.svg?event=deployment_status)](https://github.com/UTLogicLabs/starter-library/actions/workflows/release-package.yml)
+[![Node.js Package](https://github.com/UTLogicLabs/starter-library/actions/workflows/release-package.yml/badge.svg)](https://github.com/UTLogicLabs/starter-library/actions/workflows/release-package.yml)
 
 ## Usage/Examples
 
